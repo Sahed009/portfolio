@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.26130c68.css",
-    "main.js": "/portfolio/static/js/main.385157bf.js",
+    "main.css": "/portfolio/static/css/main.c83bd4b4.css",
+    "main.js": "/portfolio/static/js/main.627ff7f0.js",
+    "static/media/profile-image.png": "/portfolio/static/media/profile-image.f26c0106c9b1ae99db65.png",
+    "static/media/Gericht.jpeg": "/portfolio/static/media/Gericht.aab7990151aeac74a1f7.jpeg",
+    "static/media/gpt-3.jpeg": "/portfolio/static/media/gpt-3.b90a95dc6a2e4bfdcfe8.jpeg",
+    "static/media/piroll.jpeg": "/portfolio/static/media/piroll.f4c1536117acc85958da.jpeg",
+    "static/media/marvel.jpeg": "/portfolio/static/media/marvel.c0e486541c3fda2109c2.jpeg",
+    "static/media/skills-image.png": "/portfolio/static/media/skills-image.51e40da64df180a7669a.png",
+    "static/media/contact-image.jpeg": "/portfolio/static/media/contact-image.af6a0af9bcfad0fac56b.jpeg",
     "static/media/person-3.png": "/portfolio/static/media/person-3.1a75973b4e5ae9ef46a2.png",
     "static/media/person-1.png": "/portfolio/static/media/person-1.0c7d047bf80507807a78.png",
     "static/media/person-2.png": "/portfolio/static/media/person-2.124dd88af8925cb79a0f.png",
     "static/media/brush.png": "/portfolio/static/media/brush.9d054dbd39baa01a725f.png",
     "index.html": "/portfolio/index.html",
-    "main.26130c68.css.map": "/portfolio/static/css/main.26130c68.css.map",
-    "main.385157bf.js.map": "/portfolio/static/js/main.385157bf.js.map"
+    "main.c83bd4b4.css.map": "/portfolio/static/css/main.c83bd4b4.css.map",
+    "main.627ff7f0.js.map": "/portfolio/static/js/main.627ff7f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.26130c68.css",
-    "static/js/main.385157bf.js"
+    "static/css/main.c83bd4b4.css",
+    "static/js/main.627ff7f0.js"
   ]
 }
