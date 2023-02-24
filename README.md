@@ -1,6 +1,6 @@
 # `My Portfolio Website`
 
-## `Live link` - https://sahed009.github.io/
+## `Live link` - https://sahed009.github.io/portfolio
 
 ### `TECH USED` -
 
