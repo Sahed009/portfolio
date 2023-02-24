@@ -60,6 +60,7 @@ function App() {
 					<MySkills />
 				</motion.div>
 			</div>
+			<div className="my-[200px]" />
 			<LineGradient />
 			<div className="w-5/6 mx-auto">
 				<motion.div
@@ -87,6 +88,7 @@ function App() {
 					amount="all"
 					onViewportEnter={() => setSelectedPage("contact")}
 				>
+					<div className="md:my-[300px]" />
 					<Contact />
 				</motion.div>
 			</div>

@@ -15,7 +15,7 @@ const projectVariant = {
 	visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, image }) => {
 	const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
 	const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -24,12 +24,8 @@ const Project = ({ title }) => {
 		<motion.div variants={projectVariant} className="relative">
 			<div className={overlayStyles}>
 				<p className="text-2xl font-playfair">{title}</p>
-				<p className="mt-7">
-					Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-					sem. Nulla porttitor accumsan tincidunt.
-				</p>
 			</div>
-			<img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+			<img src={image} alt={projectTitle} />
 		</motion.div>
 	);
 };
@@ -57,10 +53,8 @@ const Projects = () => {
 						<LineGradient width="w-2/3" />
 					</div>
 				</div>
-				<p className="mt-10 mb-10">
-					Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet
-					integer ut fames odio in at. At magna ornare dictum lectus.
-					Purus massa morbi purus nec eget eleifend ut elit.
+				<p className="mt-10 mb-10 text-xl">
+					Here's My projects ( Linked with live demo ) -
 				</p>
 			</motion.div>
 
@@ -80,17 +74,43 @@ const Projects = () => {
 					>
 						BEAUTIFUL USER INTERFACES
 					</div>
-					<Project title="GPT-3" />
-					<Project title="Gericht" />
+
+					<a
+						href="https://sahed009.github.io/gpt3-pr"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Project
+							title="GPT-3"
+							image={require("../assets/gpt-3.jpeg")}
+						/>
+					</a>
+					<a
+						href="https://sahed009.github.io/gericht-pr"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Project
+							title="Gericht"
+							image={require("../assets/Gericht.jpeg")}
+						/>
+					</a>
 
 					{/* ROW 2 */}
-					<Project title="piroll" />
-					<Project title="marvel" />
-					{/* <Project title="Project 5" /> */}
-
-					{/* ROW 3 */}
-					{/* <Project title="Project 6" /> */}
-					{/* <Project title="Project 7" /> */}
+					<a
+						href="https://sahed009.github.io/piroll"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Project
+							title="Piroll"
+							image={require("../assets/piroll.jpeg")}
+						/>
+					</a>
+					<Project
+						title="Marvel"
+						image={require("../assets/marvel.jpeg")}
+					/>
 					<div
 						className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"

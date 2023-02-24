@@ -3,6 +3,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+
 const Landing = ({ setSelectedPage }) => {
 	const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 	return (
@@ -13,18 +14,19 @@ const Landing = ({ setSelectedPage }) => {
 			{/* IMAGE SECTION */}
 			<div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
 				{isAboveLarge ? (
-					<div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]">
+					<div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20
+            		before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]">
 						<img
 							alt="profile"
-							className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-							src="assets/profile-image.png"
+							className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              				src={require('../assets/profile-image.png')}
 						/>
 					</div>
 				) : (
 					<img
 						alt="profile"
-						className="z-10 w-full max-w-[300px] md:max-w-[500px] sm:max-w-[200px]"
-						src="assets/profile-image.png"
+						className="z-10 w-full max-w-[300px] md:max-w-[500px] sm:max-w-[200px] "
+						src={require('../assets/profile-image.png')}
 					/>
 				)}
 			</div>
@@ -45,14 +47,14 @@ const Landing = ({ setSelectedPage }) => {
 					<p className="text-6xl font-playfair z-10 text-center md:text-start">
 						MD {""}
 						<span
-							className="xs:relative xs:text-deep-blue xs:font-semibold z-20 before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+							className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
+              						before:absolute before:-left-[45px] before:-top-[120px] before:z-[-1]"
 						>
 							Sahed
 						</span>
 					</p>
 
-					<p className="mt-10 mb-7 text-sm text-center md:text-start">
+					<p className="mt-10 mb-7 py-4 text-sm text-center md:text-start">
 						A FRONTEND DEVELOPER FROM BANGLADESH.
 						<br />
 						Studying Computer Science & Engineering. Like to
@@ -75,7 +77,7 @@ const Landing = ({ setSelectedPage }) => {
 				>
 					<AnchorLink
 						className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+             					 hover:bg-blue hover:text-white transition duration-500"
 						onClick={() => setSelectedPage("contact")}
 						href="#contact"
 					>

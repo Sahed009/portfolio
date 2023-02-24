@@ -38,21 +38,21 @@ const MySkills = () => {
 							<img
 								alt="skills"
 								className="z-10"
-								src="assets/skills-image.png"
+								src={require('../assets/skills-image.png')}
 							/>
 						</div>
 					) : (
 						<img
 							alt="skills"
 							className="z-10"
-							src="assets/skills-image.png"
+							src={require('../assets/skills-image.png')}
 						/>
 					)}
 				</div>
 			</div>
 
 			{/* SKILLS */}
-			<div className="md:flex md:justify-between mt-16 gap-32">
+			<div className="md:flex md:justify-between mt-16 gap-32 py-5">
 				{/* EXPERIENCE */}
 				<motion.div
 					className="md:w-1/3 mt-10"

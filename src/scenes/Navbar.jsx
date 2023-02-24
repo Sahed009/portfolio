@@ -28,7 +28,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 		>
 			<div className="flex items-center justify-between mx-auto w-5/6">
 				<h4 className="font-playfair text-3xl font-bold">SAHED</h4>
-
 				{/* DESKTOP NAV */}
 				{isDesktop ? (
 					<div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
@@ -63,7 +62,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 						className="rounded-full bg-cyan-500 p-2"
 						onClick={() => setIsMenuToggled(!isMenuToggled)}
 					>
-						<img alt="menu-icon" src="../assets/menu-icon.svg" />
+						<p className="font-playfair py-1 px-2 text-xl ease-in duration-500 opacity-90">
+							Menu
+						</p>
 					</button>
 				)}
 
@@ -75,10 +76,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 							<button
 								onClick={() => setIsMenuToggled(!isMenuToggled)}
 							>
-								<img
-									alt="close-icon"
-									src="../assets/close-icon.svg"
-								/>
+								<p className="text-3xl ease-in duration-500 font-playfair">
+									X
+								</p>
 							</button>
 						</div>
 

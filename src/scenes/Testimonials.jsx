@@ -40,7 +40,7 @@ const Testimonials = () => {
 					}}
 				>
 					<p className="font-playfair text-6xl">“</p>
-					<p className="text-center text-xl">
+					<p className="text-center text-lg">
 						"Working with Sahed was a pleasure. Their expertise in
 						ReactJS helped bring our project to life." - Sujon
 					</p>
@@ -59,9 +59,9 @@ const Testimonials = () => {
 					}}
 				>
 					<p className="font-playfair text-6xl">“</p>
-					<p className="text-center text-xl">
+					<p className="text-center text-lg">
 						"I highly recommend Sahed as a frontend developer. They
-						are professional, reliable, and talented."- Kefayet
+						are professional, reliable and talented."- Kefayet
 					</p>
 				</motion.div>
 
@@ -78,9 +78,9 @@ const Testimonials = () => {
 					}}
 				>
 					<p className="font-playfair text-6xl">“</p>
-					<p className="text-center text-xl">
-						"We were impressed with Sahed's attention to detail. We look forward
-						to working with them again." -Mahdi
+					<p className="text-center text-lg">
+						"We were impressed with Sahed's attention to detail.We
+						look forward to working with them again." -Mahdi
 					</p>
 				</motion.div>
 			</div>
