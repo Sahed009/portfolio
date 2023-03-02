@@ -74,6 +74,16 @@ const Projects = () => {
 					>
 						BEAUTIFUL USER INTERFACES
 					</div>
+                    <a
+                        href="https://sahed009.github.io/mahi"
+                        terget="_blank"
+                        rel="noreferrer"
+                    >
+                        <Project
+						title="Mahi"
+						image={require("../assets/mahi.jpeg")}
+					/>
+                    </a>
 
 					<a
 						href="https://sahed009.github.io/gpt3-pr"
@@ -107,10 +117,7 @@ const Projects = () => {
 							image={require("../assets/piroll.jpeg")}
 						/>
 					</a>
-					<Project
-						title="Marvel"
-						image={require("../assets/marvel.jpeg")}
-					/>
+					
 					<div
 						className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
