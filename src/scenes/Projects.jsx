@@ -75,15 +75,15 @@ const Projects = () => {
 						BEAUTIFUL USER INTERFACES
 					</div>
                     <a
-                        href="https://sahed009.github.io/mahi"
-                        terget="_blank"
-                        rel="noreferrer"
-                    >
-                        <Project
-						title="Mahi"
-						image={require("../assets/mahi.jpeg")}
-					/>
-                    </a>
+						href="https://sahed009.github.io/mahi"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Project
+							title="Mahi"
+							image={require("../assets/mahi.jpeg")}
+						/>
+					</a>
 
 					<a
 						href="https://sahed009.github.io/gpt3-pr"
